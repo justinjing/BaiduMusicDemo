@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FECA04121771540500920872 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FECA04111771540500920872 /* icon.png */; };
+		FECA04141771540E00920872 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECA04131771540E00920872 /* icon@2x.png */; };
+		FECA04181771549300920872 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECA04151771549300920872 /* Default-568h@2x.png */; };
+		FECA04191771549300920872 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FECA04161771549300920872 /* Default@2x.png */; };
+		FECA041A1771549300920872 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FECA04171771549300920872 /* Default.png */; };
+		FED2057B17703A7700D400ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2057A17703A7700D400ED /* UIKit.framework */; };
+		FED2057D17703A7700D400ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2057C17703A7700D400ED /* Foundation.framework */; };
+		FED2057F17703A7700D400ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2057E17703A7700D400ED /* CoreGraphics.framework */; };
+		FED2058517703A7700D400ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FED2058317703A7700D400ED /* InfoPlist.strings */; };
+		FED2058717703A7700D400ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2058617703A7700D400ED /* main.m */; };
+		FED2058B17703A7700D400ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2058A17703A7700D400ED /* AppDelegate.m */; };
+		FED2059417703A7700D400ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FED2059317703A7700D400ED /* ViewController.m */; };
+		FED2059717703A7700D400ED /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FED2059517703A7700D400ED /* ViewController.xib */; };
+		FED2059E17703B3100D400ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED2059D17703B3100D400ED /* QuartzCore.framework */; };
+		FED205B117703D4600D400ED /* display_toplist_icon_add_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205A317703D4600D400ED /* display_toplist_icon_add_normal.png */; };
+		FED205B217703D4600D400ED /* display_toplist_icon_add_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205A417703D4600D400ED /* display_toplist_icon_add_normal@2x.png */; };
+		FED205B317703D4600D400ED /* display_toplist_icon_add_press_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205A517703D4600D400ED /* display_toplist_icon_add_press_blue.png */; };
+		FED205B417703D4600D400ED /* display_toplist_icon_add_press_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205A617703D4600D400ED /* display_toplist_icon_add_press_blue@2x.png */; };
+		FED205B917703D4600D400ED /* display_toplist_icon_download_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205AB17703D4600D400ED /* display_toplist_icon_download_normal.png */; };
+		FED205BA17703D4600D400ED /* display_toplist_icon_download_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205AC17703D4600D400ED /* display_toplist_icon_download_normal@2x.png */; };
+		FED205C117703F9000D400ED /* bar_button_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205BD17703F8D00D400ED /* bar_button_normal.png */; };
+		FED205C217703F9000D400ED /* bar_button_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205BE17703F8E00D400ED /* bar_button_normal@2x.png */; };
+		FED205C717703FB800D400ED /* mymusicpage_download.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205C517703FB700D400ED /* mymusicpage_download.png */; };
+		FED205C817703FB800D400ED /* mymusicpage_download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205C617703FB700D400ED /* mymusicpage_download@2x.png */; };
+		FED205CB177056B900D400ED /* display_toplist_icon_collection_press.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205C9177056B700D400ED /* display_toplist_icon_collection_press.png */; };
+		FED205CC177056B900D400ED /* display_toplist_icon_collection_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FED205CA177056B800D400ED /* display_toplist_icon_collection_press@2x.png */; };
+		FED205CF17705BD500D400ED /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = FED205CE17705BD500D400ED /* TouchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FECA04111771540500920872 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FECA04131771540E00920872 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		FECA04151771549300920872 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FECA04161771549300920872 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FECA04171771549300920872 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FED2057717703A7700D400ED /* BaiduMusicAddDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiduMusicAddDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED2057A17703A7700D400ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FED2057C17703A7700D400ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FED2057E17703A7700D400ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FED2058217703A7700D400ED /* BaiduMusicAddDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaiduMusicAddDemo-Info.plist"; sourceTree = "<group>"; };
+		FED2058417703A7700D400ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FED2058617703A7700D400ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FED2058817703A7700D400ED /* BaiduMusicAddDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaiduMusicAddDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FED2058917703A7700D400ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FED2058A17703A7700D400ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FED2059217703A7700D400ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FED2059317703A7700D400ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FED2059617703A7700D400ED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FED2059D17703B3100D400ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FED205A317703D4600D400ED /* display_toplist_icon_add_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_toplist_icon_add_normal.png; sourceTree = "<group>"; };
+		FED205A417703D4600D400ED /* display_toplist_icon_add_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "display_toplist_icon_add_normal@2x.png"; sourceTree = "<group>"; };
+		FED205A517703D4600D400ED /* display_toplist_icon_add_press_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_toplist_icon_add_press_blue.png; sourceTree = "<group>"; };
+		FED205A617703D4600D400ED /* display_toplist_icon_add_press_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "display_toplist_icon_add_press_blue@2x.png"; sourceTree = "<group>"; };
+		FED205AB17703D4600D400ED /* display_toplist_icon_download_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_toplist_icon_download_normal.png; sourceTree = "<group>"; };
+		FED205AC17703D4600D400ED /* display_toplist_icon_download_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "display_toplist_icon_download_normal@2x.png"; sourceTree = "<group>"; };
+		FED205BD17703F8D00D400ED /* bar_button_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar_button_normal.png; sourceTree = "<group>"; };
+		FED205BE17703F8E00D400ED /* bar_button_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar_button_normal@2x.png"; sourceTree = "<group>"; };
+		FED205C517703FB700D400ED /* mymusicpage_download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mymusicpage_download.png; sourceTree = "<group>"; };
+		FED205C617703FB700D400ED /* mymusicpage_download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mymusicpage_download@2x.png"; sourceTree = "<group>"; };
+		FED205C9177056B700D400ED /* display_toplist_icon_collection_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display_toplist_icon_collection_press.png; sourceTree = "<group>"; };
+		FED205CA177056B800D400ED /* display_toplist_icon_collection_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "display_toplist_icon_collection_press@2x.png"; sourceTree = "<group>"; };
+		FED205CD17705BD400D400ED /* TouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		FED205CE17705BD500D400ED /* TouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FED2057417703A7700D400ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2059E17703B3100D400ED /* QuartzCore.framework in Frameworks */,
+				FED2057B17703A7700D400ED /* UIKit.framework in Frameworks */,
+				FED2057D17703A7700D400ED /* Foundation.framework in Frameworks */,
+				FED2057F17703A7700D400ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FED2056E17703A7700D400ED = {
+			isa = PBXGroup;
+			children = (
+				FECA04131771540E00920872 /* icon@2x.png */,
+				FECA04111771540500920872 /* icon.png */,
+				FED2058017703A7700D400ED /* BaiduMusicAddDemo */,
+				FED2057917703A7700D400ED /* Frameworks */,
+				FED2057817703A7700D400ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FED2057817703A7700D400ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FED2057717703A7700D400ED /* BaiduMusicAddDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FED2057917703A7700D400ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED2059D17703B3100D400ED /* QuartzCore.framework */,
+				FED2057A17703A7700D400ED /* UIKit.framework */,
+				FED2057C17703A7700D400ED /* Foundation.framework */,
+				FED2057E17703A7700D400ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FED2058017703A7700D400ED /* BaiduMusicAddDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FED2058917703A7700D400ED /* AppDelegate.h */,
+				FED2058A17703A7700D400ED /* AppDelegate.m */,
+				FED2059217703A7700D400ED /* ViewController.h */,
+				FED2059317703A7700D400ED /* ViewController.m */,
+				FED2059517703A7700D400ED /* ViewController.xib */,
+				FED205CD17705BD400D400ED /* TouchView.h */,
+				FED205CE17705BD500D400ED /* TouchView.m */,
+				FED2058117703A7700D400ED /* Supporting Files */,
+			);
+			path = BaiduMusicAddDemo;
+			sourceTree = "<group>";
+		};
+		FED2058117703A7700D400ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FED205C9177056B700D400ED /* display_toplist_icon_collection_press.png */,
+				FED205CA177056B800D400ED /* display_toplist_icon_collection_press@2x.png */,
+				FED205A317703D4600D400ED /* display_toplist_icon_add_normal.png */,
+				FED205A417703D4600D400ED /* display_toplist_icon_add_normal@2x.png */,
+				FED205A517703D4600D400ED /* display_toplist_icon_add_press_blue.png */,
+				FED205A617703D4600D400ED /* display_toplist_icon_add_press_blue@2x.png */,
+				FED205AB17703D4600D400ED /* display_toplist_icon_download_normal.png */,
+				FED205AC17703D4600D400ED /* display_toplist_icon_download_normal@2x.png */,
+				FED205BD17703F8D00D400ED /* bar_button_normal.png */,
+				FED205BE17703F8E00D400ED /* bar_button_normal@2x.png */,
+				FED205C517703FB700D400ED /* mymusicpage_download.png */,
+				FED205C617703FB700D400ED /* mymusicpage_download@2x.png */,
+				FECA04151771549300920872 /* Default-568h@2x.png */,
+				FECA04161771549300920872 /* Default@2x.png */,
+				FECA04171771549300920872 /* Default.png */,
+				FED2058217703A7700D400ED /* BaiduMusicAddDemo-Info.plist */,
+				FED2058317703A7700D400ED /* InfoPlist.strings */,
+				FED2058617703A7700D400ED /* main.m */,
+				FED2058817703A7700D400ED /* BaiduMusicAddDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FED2057617703A7700D400ED /* BaiduMusicAddDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FED2059A17703A7700D400ED /* Build configuration list for PBXNativeTarget "BaiduMusicAddDemo" */;
+			buildPhases = (
+				FED2057317703A7700D400ED /* Sources */,
+				FED2057417703A7700D400ED /* Frameworks */,
+				FED2057517703A7700D400ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaiduMusicAddDemo;
+			productName = BaiduMusicAddDemo;
+			productReference = FED2057717703A7700D400ED /* BaiduMusicAddDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FED2056F17703A7700D400ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "da zhan";
+			};
+			buildConfigurationList = FED2057217703A7700D400ED /* Build configuration list for PBXProject "BaiduMusicAddDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FED2056E17703A7700D400ED;
+			productRefGroup = FED2057817703A7700D400ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FED2057617703A7700D400ED /* BaiduMusicAddDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FED2057517703A7700D400ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2058517703A7700D400ED /* InfoPlist.strings in Resources */,
+				FED2059717703A7700D400ED /* ViewController.xib in Resources */,
+				FED205B117703D4600D400ED /* display_toplist_icon_add_normal.png in Resources */,
+				FED205B217703D4600D400ED /* display_toplist_icon_add_normal@2x.png in Resources */,
+				FED205B317703D4600D400ED /* display_toplist_icon_add_press_blue.png in Resources */,
+				FED205B417703D4600D400ED /* display_toplist_icon_add_press_blue@2x.png in Resources */,
+				FED205B917703D4600D400ED /* display_toplist_icon_download_normal.png in Resources */,
+				FED205BA17703D4600D400ED /* display_toplist_icon_download_normal@2x.png in Resources */,
+				FED205C117703F9000D400ED /* bar_button_normal.png in Resources */,
+				FED205C217703F9000D400ED /* bar_button_normal@2x.png in Resources */,
+				FED205C717703FB800D400ED /* mymusicpage_download.png in Resources */,
+				FED205C817703FB800D400ED /* mymusicpage_download@2x.png in Resources */,
+				FED205CB177056B900D400ED /* display_toplist_icon_collection_press.png in Resources */,
+				FED205CC177056B900D400ED /* display_toplist_icon_collection_press@2x.png in Resources */,
+				FECA04121771540500920872 /* icon.png in Resources */,
+				FECA04141771540E00920872 /* icon@2x.png in Resources */,
+				FECA04181771549300920872 /* Default-568h@2x.png in Resources */,
+				FECA04191771549300920872 /* Default@2x.png in Resources */,
+				FECA041A1771549300920872 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FED2057317703A7700D400ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED2058717703A7700D400ED /* main.m in Sources */,
+				FED2058B17703A7700D400ED /* AppDelegate.m in Sources */,
+				FED2059417703A7700D400ED /* ViewController.m in Sources */,
+				FED205CF17705BD500D400ED /* TouchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FED2058317703A7700D400ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED2058417703A7700D400ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FED2059517703A7700D400ED /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FED2059617703A7700D400ED /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FED2059817703A7700D400ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FED2059917703A7700D400ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FED2059B17703A7700D400ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xu Zhiwen (L479Y675FH)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduMusicAddDemo/BaiduMusicAddDemo-Prefix.pch";
+				INFOPLIST_FILE = "BaiduMusicAddDemo/BaiduMusicAddDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6CD07665-D9A4-419A-BCFF-FE5A673C673B";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FED2059C17703A7700D400ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BaiduMusicAddDemo/BaiduMusicAddDemo-Prefix.pch";
+				INFOPLIST_FILE = "BaiduMusicAddDemo/BaiduMusicAddDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FED2057217703A7700D400ED /* Build configuration list for PBXProject "BaiduMusicAddDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED2059817703A7700D400ED /* Debug */,
+				FED2059917703A7700D400ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FED2059A17703A7700D400ED /* Build configuration list for PBXNativeTarget "BaiduMusicAddDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FED2059B17703A7700D400ED /* Debug */,
+				FED2059C17703A7700D400ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FED2056F17703A7700D400ED /* Project object */;
+}
