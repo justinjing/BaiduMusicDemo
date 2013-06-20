@@ -61,14 +61,30 @@
 }
 - (void)tranAction {
     
+    CALayer *transitionLayer = [[CALayer alloc] init];
+    [CATransaction setValue:(id)kCFBooleanTrue forKey:kCATransactionDisableActions];
+    transitionLayer.opacity = 1.0;
+    transitionLayer.contents = self.layer.contents;
+    transitionLayer.frame = [[UIApplication sharedApplication].keyWindow convertRect:self.bounds fromView:self];
+ 
     CGPoint fromPoint = self.center;
-    
+   
     //路径曲线
     UIBezierPath *movePath = [UIBezierPath bezierPath];
     [movePath moveToPoint:fromPoint];
-    CGPoint toPoint = CGPointMake(20, 570);
-    [movePath addQuadCurveToPoint:toPoint
-                     controlPoint:CGPointMake(20,0)];
+    CGPoint toPoint = CGPointMake(20,530);
+    if (transitionLayer.position.y<242) {
+        [movePath addQuadCurveToPoint:toPoint
+                         controlPoint:CGPointMake(20,transitionLayer.position.y-420)];
+    }else if (242<transitionLayer.position.y<332)  {
+        [movePath addQuadCurveToPoint:toPoint
+                         controlPoint:CGPointMake(20,transitionLayer.position.y-720)];
+    }else{
+    
+        [movePath addQuadCurveToPoint:toPoint
+                         controlPoint:CGPointMake(20,transitionLayer.position.y-820)];
+    }
+   
     
     //关键帧
     CAKeyframeAnimation *moveAnim = [CAKeyframeAnimation animationWithKeyPath:@"position"];
